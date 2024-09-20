@@ -8,6 +8,11 @@ document.getElementById('btn-add-money')
 
         const addMoney = getInputFieldValueById('input-add-money');
         const pinNumber = getInputFieldValueById('input-pin-number');
+
+        if(isNaN(addMoney)){
+            alert('Failed to add money');
+            return;
+        }
         
         
         if(pinNumber === 1234){
