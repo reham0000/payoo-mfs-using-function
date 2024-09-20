@@ -34,7 +34,7 @@
             <div class="divider"></div>
             <div
               id="add-money-form"
-              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+              class=" card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -72,7 +72,7 @@
             <!-- cash out form -->
             <div
               id="cash-out-form"
-              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -107,7 +107,12 @@
                 </div>
               </form>
             </div>
-            <div id="transaction-section" class="text-5xl text-center">Transaction Form</div>
+            <div id="transaction-section" class="hidden">
+              <h2 class="text-3xl text-center">Transaction Form</h2>
+              <div id="transaction-container">
+
+              </div>
+            </div> 
           </div>
         </div>
       </div>
